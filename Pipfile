@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+slack-sdk = "==3.15.2"
+slack-bolt = "==1.13.0"
+requests = "==2.27.1"
+httpx = "==0.22.0"
+fastapi = "==0.75.0"
+uvicorn = "==0.17.6"
+python-dotenv = "==0.19.2"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
